@@ -1,12 +1,12 @@
 module Brainfuck
 
-open MetalSharp
-open MetalSharp.X86
-open MetalSharp.X86.Typed
-
 open System
 open System.Collections.Generic
 open System.Runtime.InteropServices
+
+open MetalSharp
+open MetalSharp.X86
+open MetalSharp.X86.Typed
 
 [<UnmanagedFunctionPointer(CallingConvention.Winapi)>]
 type private ReadDelegate = delegate of unit -> int

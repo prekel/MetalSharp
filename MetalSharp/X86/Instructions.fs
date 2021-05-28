@@ -1,8 +1,7 @@
 namespace MetalSharp.X86
 
-open System
-
 open MetalSharp
+open MetalSharp.X86
 
 module Typed =
 
